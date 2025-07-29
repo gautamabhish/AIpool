@@ -18,6 +18,9 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
     "@electron-forge/cli": "^7.8.1",
     "@electron-forge/maker-deb": "^7.8.1",
     "@electron-forge/maker-rpm": "^7.8.1",
@@ -28,12 +31,33 @@
     "@electron-forge/plugin-webpack": "^7.8.1",
     "@electron/fuses": "^1.8.0",
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "crypto-browserify": "^3.12.1",
     "css-loader": "^6.11.0",
     "electron": "37.2.4",
     "node-loader": "^2.1.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "style-loader": "^3.3.4"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "@chainsafe/libp2p-noise": "^16.1.4",
+    "@chainsafe/libp2p-yamux": "^7.0.4",
+    "@libp2p/identify": "^3.0.38",
+    "@libp2p/kad-dht": "^15.1.10",
+    "@libp2p/mplex": "^11.0.46",
+    "@libp2p/noise": "^12.0.1",
+    "@libp2p/peer-id-factory": "^4.2.4",
+    "@libp2p/tcp": "^10.1.18",
+    "@libp2p/websockets": "^9.2.18",
+    "@multiformats/multiaddr": "^12.5.1",
+    "dotenv": "^17.2.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "libp2p": "^2.9.0",
+    "lucide-react": "^0.528.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "systeminformation": "^5.27.7"
   }
 }
