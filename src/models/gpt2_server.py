@@ -9,7 +9,8 @@ generator = pipeline("text-generation", model="gpt2")
 async def generate(req: Request):
     data = await req.json()
     prompt = data.get("prompt", "")
-    output = generator(prompt, max_length=4000)
+    print(prompt)
+    output = generator(prompt, max_length=1000 , truncation=True)
     return {"response": output[0]["generated_text"]}
 
 if __name__ == "__main__":

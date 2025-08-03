@@ -90,5 +90,7 @@ typings/
 
 # Electron-Forge
 out/
+cpython-3.10.18+20250723-x86_64-unknown-linux-gnu-debug-full.tar.zst
 
 venv
+python
